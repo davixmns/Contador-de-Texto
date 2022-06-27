@@ -24,7 +24,7 @@ public class Main {
                     "Resultado", JOptionPane.INFORMATION_MESSAGE);
 
         } else {
-            System.out.println("Arquivo inválido");
+            JOptionPane.showMessageDialog(null, "Nenhum arquivo selecionado", "Erro", JOptionPane.ERROR_MESSAGE);
         }
 
     }
