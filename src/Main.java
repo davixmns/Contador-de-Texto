@@ -21,7 +21,7 @@ public class Main {
                     "Número de letras = " + numeroDeLetras + "\n" +
                             "Número de palavras = " + numeroDePalavras + "\n" +
                             "Número de linhas = " + numeroDeLinhas,
-                    "Resultado", JOptionPane.INFORMATION_MESSAGE);
+                    fileChooser.getSelectedFile().getName(), JOptionPane.INFORMATION_MESSAGE);
 
         } else {
             JOptionPane.showMessageDialog(null, "Nenhum arquivo selecionado", "Erro", JOptionPane.ERROR_MESSAGE);
