@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Contador de Texto:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Contador_de_Texto_jar</output-path>
+    <root id="archive" name="Contador de Texto.jar">
+      <element id="module-output" name="Contador de Texto" />
+    </root>
+  </artifact>
+</component>
